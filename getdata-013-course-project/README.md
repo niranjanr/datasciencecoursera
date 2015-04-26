@@ -6,21 +6,21 @@ This script makes the following assumptions:
 1. The current working directory consists of all the files that are present in the "UCI HAR Dataset" folder when you unzip https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 2. The list of files includes:
-..* features.txt
-..* activity_labels.txt
-..* test/X_test.txt
-..* test/y_test.txt
-..* test/subject_test.txt
-..* train/X_train.txt
-..* train/y_train.txt
-..* train/subject_train.txt
+..- features.txt
+..- activity_labels.txt
+..- test/X_test.txt
+..- test/y_test.txt
+..- test/subject_test.txt
+..- train/X_train.txt
+..- train/y_train.txt
+..- train/subject_train.txt
 
 3. You have installed the "dplyr" package already. Please make sure that it is the case
 
 ## Outputs
 
-..* step4_dataset (global environment)
-..* step5_dataset (global environment)
+* step4_dataset (global environment)
+* step5_dataset (global environment)
 
 
 ## Brief explanation of the code
