@@ -1,5 +1,4 @@
-==========================================
-CODEBOOK for STEP5_DATASET & STEP4_DATASET
+# CODEBOOK for STEP5_DATASET & STEP4_DATASET
 
 * All the data in this data set is based on the UCI HAR dataset located here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
@@ -14,26 +13,25 @@ CODEBOOK for STEP5_DATASET & STEP4_DATASET
 * These signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+	* tBodyAcc-XYZ
+	* tGravityAcc-XYZ
+	* tBodyAccJerk-XYZ
+	* tBodyGyro-XYZ
+	* tBodyGyroJerk-XYZ
+	* tBodyAccMag
+	* tGravityAccMag
+	* tBodyAccJerkMag
+	* tBodyGyroMag
+	* tBodyGyroJerkMag
+	* fBodyAcc-XYZ
+	* fBodyAccJerk-XYZ
+	* fBodyGyro-XYZ
+	* fBodyAccMag
+	* fBodyAccJerkMag
+	* fBodyGyroMag
+	* fBodyGyroJerkMag
 
-==========================================
-STEP5_DATASET CODEBOOK
+# STEP5_DATASET CODEBOOK
 
 This dataset consists of readings in the mean and standard deviation for different activities performed by different subjects.
 
@@ -127,8 +125,7 @@ This dataset consists of readings in the mean and standard deviation for differe
 	1 - 30 (for this data set)
 
 
-==========================================
-STEP4_DATASET CODEBOOK
+# STEP4_DATASET CODEBOOK
 
 This dataset consists of readings in the mean and standard deviation for different activities performed by different subjects.
 
