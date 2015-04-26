@@ -1,4 +1,4 @@
-# CODEBOOK for STEP5_DATASET & STEP4_DATASET
+# CodeBook for step5_dataset & step4_dataset (output datasets for course project)
 
 * All the data in this data set is based on the UCI HAR dataset located here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
@@ -31,7 +31,7 @@
 	* fBodyGyroMag
 	* fBodyGyroJerkMag
 
-# STEP5_DATASET CODEBOOK
+# step5_dataset CodeBook
 
 This dataset consists of readings in the mean and standard deviation for different activities performed by different subjects.
 
@@ -115,17 +115,17 @@ This dataset consists of readings in the mean and standard deviation for differe
 78. fBodyBodyGyroJerkMag-std()	: mean value of fBodyBodyGyroJerkMag-std() per subject for a given activity level
 79. fBodyBodyGyroJerkMag-meanFreq() : mean value of fBodyBodyGyroJerkMag-meanFreq() per subject for a given activity level
 80. activityLevel : this can take the following values
-	1 WALKING
-	2 WALKING_UPSTAIRS
-	3 WALKING_DOWNSTAIRS
-	4 SITTING
-	5 STANDING
-	6 LAYING
+	* WALKING
+	* WALKING_UPSTAIRS
+	* WALKING_DOWNSTAIRS
+	* SITTING
+	* STANDING
+	* LAYING
 81. subject : subject for whom the data was recorded
-	1 - 30 (for this data set)
+	* 1 - 30 (for this data set)
 
 
-# STEP4_DATASET CODEBOOK
+# step4_dataset CodeBook
 
 This dataset consists of readings in the mean and standard deviation for different activities performed by different subjects.
 
@@ -209,11 +209,11 @@ This dataset consists of readings in the mean and standard deviation for differe
 78. fBodyBodyGyroJerkMag-std()
 79. fBodyBodyGyroJerkMag-meanFreq()
 80. activityLevel : this can take the following values
-	1 WALKING
-	2 WALKING_UPSTAIRS
-	3 WALKING_DOWNSTAIRS
-	4 SITTING
-	5 STANDING
-	6 LAYING
+	* WALKING
+	* WALKING_UPSTAIRS
+	* WALKING_DOWNSTAIRS
+	* SITTING
+	* STANDING
+	* LAYING
 81. subject : subject for whom the data was recorded
-	1 - 30 (for this data set)
+	* 1 - 30 (for this data set)
