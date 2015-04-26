@@ -4,6 +4,10 @@ features <- read.table("UCI HAR Dataset/features.txt",
                        header = FALSE,
                        stringsAsFactors = FALSE)
 
+activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt",
+                       header = FALSE,
+                       stringsAsFactors = FALSE)
+
 # read in test data
 data_X_test <- read.table("UCI HAR Dataset/test/X_test.txt",
                           header = FALSE)
@@ -42,9 +46,18 @@ rm (data_subject_test)
 rm (data_X_train)
 rm (data_y_train)
 rm (data_subject_train)
+rm (combined_dataset)
 
 # replace the activity levels with the text / factors
 column_filtered_dataset <- mutate(column_filtered_dataset,
                                   activityLevel = activity_labels$V2[activityLevel])
 
-# TODO: Step 5 of the assignment (tidying up the dataset)
+# create another tidy data set that has the mean of different features grouped
+# by activity levels for each subject
+tidy_data_set <- column_filtered_dataset %>%
+  group_by(subject, activityLevel) %>%
+  summarise_each(funs(mean))
+
+# final clean up
+rm (activity_labels)
+rm (features)
